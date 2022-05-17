@@ -3,6 +3,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+application-secure.yml
+prgrms_keystore.p12
+prgrms_truststore.p12
+
 ### STS ###
 .apt_generated
 .classpath
@@ -30,7 +34,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-application-secure.yml
-prgrms_keystore.p12
-prgrms_truststore.p12
