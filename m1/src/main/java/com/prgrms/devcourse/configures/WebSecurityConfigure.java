@@ -49,6 +49,8 @@ public class WebSecurityConfigure extends WebSecurityConfigurerAdapter {
                     .invalidateHttpSession(true)
                     .clearAuthentication(true)
                     .and()
+                .requiresChannel()
+                .anyRequest().requiresSecure()
         ;
     }
 }
